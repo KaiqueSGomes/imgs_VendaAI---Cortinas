@@ -1,0 +1,205 @@
+================================================================================
+RENOMEAÇÃO DE CORTINAS - DUAS VERSÕES
+================================================================================
+Data/Hora: 2025-12-15 18:00:58
+
+✓ Pasta de imagens: imagens
+✓ Pasta de renomeações: renomeacoes
+✓ Saída COM zeros: imagens_renomeadas
+✓ Saída SEM zeros: imagens_sem_zero
+
+Total de CSVs encontrados: 7
+
+================================================================================
+Processando: 501
+================================================================================
+  ❌ Erro ao copiar (com zero): PLANO/linho-prime-plano-5.jpg -> [WinError 123] A sintaxe do nome do arquivo, do nome do diretório ou do rótulo do volume está incorreta
+  ❌ Erro ao copiar (com zero): PLANO/lira-plano-1.jpg -> [WinError 123] A sintaxe do nome do arquivo, do nome do diretório ou do rótulo do volume está incorreta
+  ❌ Erro ao copiar (com zero): PLANO/lira-plano-2.jpg -> [WinError 123] A sintaxe do nome do arquivo, do nome do diretório ou do rótulo do volume está incorreta
+  ❌ Erro ao copiar (com zero): PLANO/lira-plano-3.jpg -> [WinError 123] A sintaxe do nome do arquivo, do nome do diretório ou do rótulo do volume está incorreta
+  ❌ Erro ao copiar (com zero): PLANO/lira-plano-4.jpg -> [WinError 123] A sintaxe do nome do arquivo, do nome do diretório ou do rótulo do volume está incorreta
+  ❌ Erro ao copiar (com zero): PLANO/nero-plano-1.jpg -> [WinError 123] A sintaxe do nome do arquivo, do nome do diretório ou do rótulo do volume está incorreta
+  ❌ Erro ao copiar (com zero): PLANO/nero-plano-2.jpg -> [WinError 123] A sintaxe do nome do arquivo, do nome do diretório ou do rótulo do volume está incorreta
+  ❌ Erro ao copiar (com zero): PLANO/nero-plano-3.jpg -> [WinError 123] A sintaxe do nome do arquivo, do nome do diretório ou do rótulo do volume está incorreta
+  ❌ Erro ao copiar (com zero): TEXTURA/linho-prime-textura-5.jpg -> [WinError 123] A sintaxe do nome do arquivo, do nome do diretório ou do rótulo do volume está incorreta
+  ❌ Erro ao copiar (com zero): TEXTURA/lira-textura-1.jpg -> [WinError 123] A sintaxe do nome do arquivo, do nome do diretório ou do rótulo do volume está incorreta
+  ❌ Erro ao copiar (com zero): TEXTURA/lira-textura-2.jpg -> [WinError 123] A sintaxe do nome do arquivo, do nome do diretório ou do rótulo do volume está incorreta
+  ❌ Erro ao copiar (com zero): TEXTURA/lira-textura-3.jpg -> [WinError 123] A sintaxe do nome do arquivo, do nome do diretório ou do rótulo do volume está incorreta
+  ❌ Erro ao copiar (com zero): TEXTURA/lira-textura-4.jpg -> [WinError 123] A sintaxe do nome do arquivo, do nome do diretório ou do rótulo do volume está incorreta
+  ❌ Erro ao copiar (com zero): TEXTURA/nero-textura-1.jpg -> [WinError 123] A sintaxe do nome do arquivo, do nome do diretório ou do rótulo do volume está incorreta
+  ❌ Erro ao copiar (com zero): TEXTURA/nero-textura-2.jpg -> [WinError 123] A sintaxe do nome do arquivo, do nome do diretório ou do rótulo do volume está incorreta
+  ❌ Erro ao copiar (com zero): TEXTURA/nero-textura-3.jpg -> [WinError 123] A sintaxe do nome do arquivo, do nome do diretório ou do rótulo do volume está incorreta
+
+  ✓ COM zeros: 59 arquivos
+  ✓ SEM zeros: 59 arquivos
+  ✗ Erros: 16
+
+================================================================================
+Processando: 502
+================================================================================
+  ❌ Erro ao copiar (com zero): PLANO/brumma-plano-4.jpg -> [WinError 123] A sintaxe do nome do arquivo, do nome do diretório ou do rótulo do volume está incorreta
+  ❌ Erro ao copiar (com zero): PLANO/voil-rioja-plano-1.jpg -> [WinError 123] A sintaxe do nome do arquivo, do nome do diretório ou do rótulo do volume está incorreta
+  ❌ Erro ao copiar (com zero): PLANO/voil-rioja-plano-2.jpg -> [WinError 123] A sintaxe do nome do arquivo, do nome do diretório ou do rótulo do volume está incorreta
+  ❌ Erro ao copiar (com zero): PLANO/voil-rioja-plano-3.jpg -> [WinError 123] A sintaxe do nome do arquivo, do nome do diretório ou do rótulo do volume está incorreta
+  ❌ Erro ao copiar (com zero): TEXTURA/brumma-textura-4.jpg -> [WinError 123] A sintaxe do nome do arquivo, do nome do diretório ou do rótulo do volume está incorreta
+  ❌ Erro ao copiar (com zero): TEXTURA/voil-rioja-textura-1.jpg -> [WinError 123] A sintaxe do nome do arquivo, do nome do diretório ou do rótulo do volume está incorreta
+  ❌ Erro ao copiar (com zero): TEXTURA/voil-rioja-textura-2.jpg -> [WinError 123] A sintaxe do nome do arquivo, do nome do diretório ou do rótulo do volume está incorreta
+  ❌ Erro ao copiar (com zero): TEXTURA/voil-rioja-textura-3.jpg -> [WinError 123] A sintaxe do nome do arquivo, do nome do diretório ou do rótulo do volume está incorreta
+
+  ✓ COM zeros: 39 arquivos
+  ✓ SEM zeros: 39 arquivos
+  ✗ Erros: 8
+
+================================================================================
+Processando: 503
+================================================================================
+  ❌ Erro ao copiar (com zero): PLANO/dolly-1-plano.jpg -> [WinError 123] A sintaxe do nome do arquivo, do nome do diretório ou do rótulo do volume está incorreta
+  ❌ Erro ao copiar (com zero): PLANO/dolly-2-plano.jpg -> [WinError 123] A sintaxe do nome do arquivo, do nome do diretório ou do rótulo do volume está incorreta
+  ❌ Erro ao copiar (com zero): PLANO/dolly-3-plano.jpg -> [WinError 123] A sintaxe do nome do arquivo, do nome do diretório ou do rótulo do volume está incorreta
+  ❌ Erro ao copiar (com zero): PLANO/dolly-4-plano.jpg -> [WinError 123] A sintaxe do nome do arquivo, do nome do diretório ou do rótulo do volume está incorreta
+  ❌ Erro ao copiar (com zero): PLANO/dolly-5-plano.jpg -> [WinError 123] A sintaxe do nome do arquivo, do nome do diretório ou do rótulo do volume está incorreta
+  ❌ Erro ao copiar (com zero): PLANO/dolly-6-plano.jpg -> [WinError 123] A sintaxe do nome do arquivo, do nome do diretório ou do rótulo do volume está incorreta
+  ❌ Erro ao copiar (com zero): PLANO/dolly-7-plano.jpg -> [WinError 123] A sintaxe do nome do arquivo, do nome do diretório ou do rótulo do volume está incorreta
+  ❌ Erro ao copiar (com zero): TEXTURA/dolly-1-caimento.jpg -> [WinError 123] A sintaxe do nome do arquivo, do nome do diretório ou do rótulo do volume está incorreta
+  ❌ Erro ao copiar (com zero): TEXTURA/dolly-2-caimento.jpg -> [WinError 123] A sintaxe do nome do arquivo, do nome do diretório ou do rótulo do volume está incorreta
+  ❌ Erro ao copiar (com zero): TEXTURA/dolly-3-caimento.jpg -> [WinError 123] A sintaxe do nome do arquivo, do nome do diretório ou do rótulo do volume está incorreta
+  ❌ Erro ao copiar (com zero): TEXTURA/dolly-4-caimento.jpg -> [WinError 123] A sintaxe do nome do arquivo, do nome do diretório ou do rótulo do volume está incorreta
+  ❌ Erro ao copiar (com zero): TEXTURA/dolly-5-caimento.jpg -> [WinError 123] A sintaxe do nome do arquivo, do nome do diretório ou do rótulo do volume está incorreta
+  ❌ Erro ao copiar (com zero): TEXTURA/dolly-6-caimento.jpg -> [WinError 123] A sintaxe do nome do arquivo, do nome do diretório ou do rótulo do volume está incorreta
+  ❌ Erro ao copiar (com zero): TEXTURA/dolly-7-caimento.jpg -> [WinError 123] A sintaxe do nome do arquivo, do nome do diretório ou do rótulo do volume está incorreta
+
+  ✓ COM zeros: 37 arquivos
+  ✓ SEM zeros: 37 arquivos
+  ✗ Erros: 14
+
+================================================================================
+Processando: BLACKOUTS
+================================================================================
+
+  ✓ COM zeros: 7 arquivos
+  ✓ SEM zeros: 7 arquivos
+
+================================================================================
+Processando: GAZE_LINARE
+================================================================================
+  ⚠️ Arquivo não encontrado: PLANO/GAZE LINARE 01 PLANO.jpg
+  ⚠️ Arquivo não encontrado: PLANO/GAZE LINARE 02 PLANO.jpg
+  ⚠️ Arquivo não encontrado: PLANO/GAZE LINARE 03 PLANO.jpg
+  ⚠️ Arquivo não encontrado: PLANO/GAZE LINARE 04 PLANO.jpg
+  ⚠️ Arquivo não encontrado: PLANO/GAZE LINARE 05 PLANO.jpg
+  ⚠️ Arquivo não encontrado: PLANO/GAZE LINARE 06 PLANO.jpg
+  ⚠️ Arquivo não encontrado: TEXTURA/GAZE LINARE 01 TEXTURA.jpg
+  ⚠️ Arquivo não encontrado: TEXTURA/GAZE LINARE 02 TEXTURA.jpg
+  ⚠️ Arquivo não encontrado: TEXTURA/GAZE LINARE 03 TEXTURA.jpg
+  ⚠️ Arquivo não encontrado: TEXTURA/GAZE LINARE 04 TEXTURA.jpg
+  ⚠️ Arquivo não encontrado: TEXTURA/GAZE LINARE 05 TEXTURA.jpg
+  ⚠️ Arquivo não encontrado: TEXTURA/GAZE LINARE 06 TEXTURA.jpg
+
+  ✓ COM zeros: 0 arquivos
+  ✓ SEM zeros: 0 arquivos
+  ✗ Erros: 12
+
+================================================================================
+Processando: INFINITE
+================================================================================
+
+  ✓ COM zeros: 62 arquivos
+  ✓ SEM zeros: 62 arquivos
+
+================================================================================
+Processando: LINHA_INDUSTRIAL
+================================================================================
+  ⚠️ Arquivo não encontrado: PLANO/01-dobby-plano.jpg
+  ⚠️ Arquivo não encontrado: PLANO/02-dobby-plano.jpg
+  ⚠️ Arquivo não encontrado: PLANO/03-dobby-plano.jpg
+  ⚠️ Arquivo não encontrado: PLANO/04-dobby-plano.jpg
+  ⚠️ Arquivo não encontrado: PLANO/05-dobby-plano.jpg
+  ⚠️ Arquivo não encontrado: PLANO/JACQUARD PRINSCESS 01 PLANO.jpg
+  ⚠️ Arquivo não encontrado: PLANO/JACQUARD PRINSCESS 02 PLANO.jpg
+  ⚠️ Arquivo não encontrado: PLANO/JACQUARD PRINSCESS 04 PLANO.jpg
+  ⚠️ Arquivo não encontrado: PLANO/JACQUARD PRINSCESS 05 PLANO.jpg
+  ⚠️ Arquivo não encontrado: PLANO/JACQUARD PRINSCESS 06 PLANO.jpg
+  ⚠️ Arquivo não encontrado: PLANO/JACQUARD PRINSCESS 07 PLANO.jpg
+  ⚠️ Arquivo não encontrado: PLANO/JACQUARD PRINSCESS 08 PLANO.jpg
+  ⚠️ Arquivo não encontrado: PLANO/JACQUARD PRINSCESS 09 PLANO.jpg
+  ⚠️ Arquivo não encontrado: PLANO/JACQUARD PRINSCESS 10 PLANO.jpg
+  ⚠️ Arquivo não encontrado: PLANO/JACQUARD PRINSCESS 11 PLANO.jpg
+  ⚠️ Arquivo não encontrado: PLANO/JACQUARD PRINSCESS 13 PLANO.jpg
+  ⚠️ Arquivo não encontrado: PLANO/JACQUARD PRINSCESS 14 PLANO.jpg
+  ⚠️ Arquivo não encontrado: PLANO/VOIL XADREZ 01.jpg
+  ⚠️ Arquivo não encontrado: PLANO/VOIL XADREZ 02.jpg
+  ⚠️ Arquivo não encontrado: PLANO/VOIL XADREZ 03.jpg
+  ⚠️ Arquivo não encontrado: PLANO/VOIL XADREZ 04.jpg
+  ⚠️ Arquivo não encontrado: PLANO/VOIL XADREZ 05.jpg
+  ⚠️ Arquivo não encontrado: PLANO/VOIL XADREZ 06.jpg
+  ⚠️ Arquivo não encontrado: PLANO/VOIL XADREZ 07.jpg
+  ⚠️ Arquivo não encontrado: PLANO/VOIL XADREZ 08.jpg
+  ⚠️ Arquivo não encontrado: PLANO/VOIL XADREZ 09.jpg
+  ⚠️ Arquivo não encontrado: PLANO/VOIL XADREZ 10.jpg
+  ⚠️ Arquivo não encontrado: PLANO/VOIL XADREZ 11.jpg
+  ⚠️ Arquivo não encontrado: PLANO/VOIL XADREZ 12.jpg
+  ⚠️ Arquivo não encontrado: PLANO/VOIL XADREZ 13.jpg
+  ⚠️ Arquivo não encontrado: TEXTURA/01-dobby-textura_.jpg
+  ⚠️ Arquivo não encontrado: TEXTURA/02-dobby-textura.jpg
+  ⚠️ Arquivo não encontrado: TEXTURA/03-dobby-textura.jpg
+  ⚠️ Arquivo não encontrado: TEXTURA/04-dobby-textura.jpg
+  ⚠️ Arquivo não encontrado: TEXTURA/05-dobby-textura.jpg
+  ⚠️ Arquivo não encontrado: TEXTURA/JACQUARD PRINSCESS 01 TEXTURA.jpg
+  ⚠️ Arquivo não encontrado: TEXTURA/JACQUARD PRINSCESS 02 TEXTURA.jpg
+  ⚠️ Arquivo não encontrado: TEXTURA/JACQUARD PRINSCESS 03 TEXTURA.jpg
+  ⚠️ Arquivo não encontrado: TEXTURA/JACQUARD PRINSCESS 04 TEXTURA.jpg
+  ⚠️ Arquivo não encontrado: TEXTURA/JACQUARD PRINSCESS 05 TEXTURA.jpg
+  ⚠️ Arquivo não encontrado: TEXTURA/JACQUARD PRINSCESS 06 TEXTURA.jpg
+  ⚠️ Arquivo não encontrado: TEXTURA/JACQUARD PRINSCESS 07 TEXTURA.jpg
+  ⚠️ Arquivo não encontrado: TEXTURA/JACQUARD PRINSCESS 08 TEXTURA.jpg
+  ⚠️ Arquivo não encontrado: TEXTURA/JACQUARD PRINSCESS 09 TEXTURA.jpg
+  ⚠️ Arquivo não encontrado: TEXTURA/JACQUARD PRINSCESS 10 TEXTURA.jpg
+  ⚠️ Arquivo não encontrado: TEXTURA/JACQUARD PRINSCESS 11 TEXTURA.jpg
+  ⚠️ Arquivo não encontrado: TEXTURA/JACQUARD PRINSCESS 13 TEXTURA.jpg
+  ⚠️ Arquivo não encontrado: TEXTURA/JACQUARD PRINSCESS 14 TEXTURA.jpg
+  ⚠️ Arquivo não encontrado: TEXTURA/VOIL XADREZ 01 (2).jpg
+  ⚠️ Arquivo não encontrado: TEXTURA/VOIL XADREZ 01_2.jpg
+  ⚠️ Arquivo não encontrado: TEXTURA/VOIL XADREZ 02 (2).jpg
+  ⚠️ Arquivo não encontrado: TEXTURA/VOIL XADREZ 02-2.jpg
+  ⚠️ Arquivo não encontrado: TEXTURA/VOIL XADREZ 03 (2).jpg
+  ⚠️ Arquivo não encontrado: TEXTURA/VOIL XADREZ 03-2.jpg
+  ⚠️ Arquivo não encontrado: TEXTURA/VOIL XADREZ 04 (1).jpg
+  ⚠️ Arquivo não encontrado: TEXTURA/VOIL XADREZ 04 (3).jpg
+  ⚠️ Arquivo não encontrado: TEXTURA/VOIL XADREZ 05 (3).jpg
+  ⚠️ Arquivo não encontrado: TEXTURA/VOIL XADREZ 06 (2).jpg
+  ⚠️ Arquivo não encontrado: TEXTURA/VOIL XADREZ 07 (2).jpg
+  ⚠️ Arquivo não encontrado: TEXTURA/VOIL XADREZ 08 (2).jpg
+  ⚠️ Arquivo não encontrado: TEXTURA/VOIL XADREZ 09 (2).jpg
+  ⚠️ Arquivo não encontrado: TEXTURA/VOIL XADREZ 09 (4).jpg
+  ⚠️ Arquivo não encontrado: TEXTURA/VOIL XADREZ 10 (2).jpg
+  ⚠️ Arquivo não encontrado: TEXTURA/VOIL XADREZ 11 (2).jpg
+  ⚠️ Arquivo não encontrado: TEXTURA/VOIL XADREZ 12 (2).jpg
+  ⚠️ Arquivo não encontrado: TEXTURA/VOIL XADREZ 13 (2).jpg
+
+  ✓ COM zeros: 0 arquivos
+  ✓ SEM zeros: 0 arquivos
+  ✗ Erros: 66
+
+================================================================================
+RESUMO FINAL
+================================================================================
+Total de CSVs processados: 7
+Total de linhas processadas: 320
+
+✓ Imagens COM zeros criadas: 204
+✓ Imagens SEM zeros criadas: 204
+✗ Total de erros: 116
+
+Taxa de sucesso: 63.7%
+
+================================================================================
+EXEMPLOS DE RENOMEAÇÃO
+================================================================================
+COM zeros à esquerda:
+  09423 - TECIDO LINHO ALBA COR 01 BRANCO - PLANO.jpg
+  00027 - TECIDO EXEMPLO COR 02 - TEXTURA.jpg
+
+SEM zeros à esquerda:
+  9423 - TECIDO LINHO ALBA COR 01 BRANCO - PLANO.jpg
+  27 - TECIDO EXEMPLO COR 02 - TEXTURA.jpg
+

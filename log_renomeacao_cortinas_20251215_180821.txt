@@ -1,0 +1,132 @@
+================================================================================
+RENOMEAÇÃO DE CORTINAS V2 - DUAS VERSÕES
+================================================================================
+Data/Hora: 2025-12-15 18:08:21
+
+✓ Pasta de imagens: imagens
+✓ Pasta de renomeações: renomeacoes
+✓ Saída COM zeros: imagens_renomeadas
+✓ Saída SEM zeros: imagens_sem_zero
+
+Total de CSVs encontrados: 7
+
+================================================================================
+Processando CSV: renomeacao_501.csv
+================================================================================
+✓ Pasta encontrada: 501
+  ❌ Erro ao copiar (com zero): PLANO/linho-prime-plano-5.jpg -> [WinError 123] A sintaxe do nome do arquivo, do nome do diretório ou do rótulo do volume está incorreta
+  ❌ Erro ao copiar (com zero): PLANO/lira-plano-1.jpg -> [WinError 123] A sintaxe do nome do arquivo, do nome do diretório ou do rótulo do volume está incorreta
+  ❌ Erro ao copiar (com zero): PLANO/lira-plano-2.jpg -> [WinError 123] A sintaxe do nome do arquivo, do nome do diretório ou do rótulo do volume está incorreta
+  ❌ Erro ao copiar (com zero): PLANO/lira-plano-3.jpg -> [WinError 123] A sintaxe do nome do arquivo, do nome do diretório ou do rótulo do volume está incorreta
+  ❌ Erro ao copiar (com zero): PLANO/lira-plano-4.jpg -> [WinError 123] A sintaxe do nome do arquivo, do nome do diretório ou do rótulo do volume está incorreta
+  ❌ Erro ao copiar (com zero): PLANO/nero-plano-1.jpg -> [WinError 123] A sintaxe do nome do arquivo, do nome do diretório ou do rótulo do volume está incorreta
+  ❌ Erro ao copiar (com zero): PLANO/nero-plano-2.jpg -> [WinError 123] A sintaxe do nome do arquivo, do nome do diretório ou do rótulo do volume está incorreta
+  ❌ Erro ao copiar (com zero): PLANO/nero-plano-3.jpg -> [WinError 123] A sintaxe do nome do arquivo, do nome do diretório ou do rótulo do volume está incorreta
+  ❌ Erro ao copiar (com zero): TEXTURA/linho-prime-textura-5.jpg -> [WinError 123] A sintaxe do nome do arquivo, do nome do diretório ou do rótulo do volume está incorreta
+  ❌ Erro ao copiar (com zero): TEXTURA/lira-textura-1.jpg -> [WinError 123] A sintaxe do nome do arquivo, do nome do diretório ou do rótulo do volume está incorreta
+  ❌ Erro ao copiar (com zero): TEXTURA/lira-textura-2.jpg -> [WinError 123] A sintaxe do nome do arquivo, do nome do diretório ou do rótulo do volume está incorreta
+  ❌ Erro ao copiar (com zero): TEXTURA/lira-textura-3.jpg -> [WinError 123] A sintaxe do nome do arquivo, do nome do diretório ou do rótulo do volume está incorreta
+  ❌ Erro ao copiar (com zero): TEXTURA/lira-textura-4.jpg -> [WinError 123] A sintaxe do nome do arquivo, do nome do diretório ou do rótulo do volume está incorreta
+  ❌ Erro ao copiar (com zero): TEXTURA/nero-textura-1.jpg -> [WinError 123] A sintaxe do nome do arquivo, do nome do diretório ou do rótulo do volume está incorreta
+  ❌ Erro ao copiar (com zero): TEXTURA/nero-textura-2.jpg -> [WinError 123] A sintaxe do nome do arquivo, do nome do diretório ou do rótulo do volume está incorreta
+  ❌ Erro ao copiar (com zero): TEXTURA/nero-textura-3.jpg -> [WinError 123] A sintaxe do nome do arquivo, do nome do diretório ou do rótulo do volume está incorreta
+
+  ✓ COM zeros: 59 arquivos
+  ✓ SEM zeros: 59 arquivos
+  ✗ Erros: 16
+
+================================================================================
+Processando CSV: renomeacao_502.csv
+================================================================================
+✓ Pasta encontrada: 502
+  ❌ Erro ao copiar (com zero): PLANO/brumma-plano-4.jpg -> [WinError 123] A sintaxe do nome do arquivo, do nome do diretório ou do rótulo do volume está incorreta
+  ❌ Erro ao copiar (com zero): PLANO/voil-rioja-plano-1.jpg -> [WinError 123] A sintaxe do nome do arquivo, do nome do diretório ou do rótulo do volume está incorreta
+  ❌ Erro ao copiar (com zero): PLANO/voil-rioja-plano-2.jpg -> [WinError 123] A sintaxe do nome do arquivo, do nome do diretório ou do rótulo do volume está incorreta
+  ❌ Erro ao copiar (com zero): PLANO/voil-rioja-plano-3.jpg -> [WinError 123] A sintaxe do nome do arquivo, do nome do diretório ou do rótulo do volume está incorreta
+  ❌ Erro ao copiar (com zero): TEXTURA/brumma-textura-4.jpg -> [WinError 123] A sintaxe do nome do arquivo, do nome do diretório ou do rótulo do volume está incorreta
+  ❌ Erro ao copiar (com zero): TEXTURA/voil-rioja-textura-1.jpg -> [WinError 123] A sintaxe do nome do arquivo, do nome do diretório ou do rótulo do volume está incorreta
+  ❌ Erro ao copiar (com zero): TEXTURA/voil-rioja-textura-2.jpg -> [WinError 123] A sintaxe do nome do arquivo, do nome do diretório ou do rótulo do volume está incorreta
+  ❌ Erro ao copiar (com zero): TEXTURA/voil-rioja-textura-3.jpg -> [WinError 123] A sintaxe do nome do arquivo, do nome do diretório ou do rótulo do volume está incorreta
+
+  ✓ COM zeros: 39 arquivos
+  ✓ SEM zeros: 39 arquivos
+  ✗ Erros: 8
+
+================================================================================
+Processando CSV: renomeacao_503.csv
+================================================================================
+✓ Pasta encontrada: 503
+  ❌ Erro ao copiar (com zero): PLANO/dolly-1-plano.jpg -> [WinError 123] A sintaxe do nome do arquivo, do nome do diretório ou do rótulo do volume está incorreta
+  ❌ Erro ao copiar (com zero): PLANO/dolly-2-plano.jpg -> [WinError 123] A sintaxe do nome do arquivo, do nome do diretório ou do rótulo do volume está incorreta
+  ❌ Erro ao copiar (com zero): PLANO/dolly-3-plano.jpg -> [WinError 123] A sintaxe do nome do arquivo, do nome do diretório ou do rótulo do volume está incorreta
+  ❌ Erro ao copiar (com zero): PLANO/dolly-4-plano.jpg -> [WinError 123] A sintaxe do nome do arquivo, do nome do diretório ou do rótulo do volume está incorreta
+  ❌ Erro ao copiar (com zero): PLANO/dolly-5-plano.jpg -> [WinError 123] A sintaxe do nome do arquivo, do nome do diretório ou do rótulo do volume está incorreta
+  ❌ Erro ao copiar (com zero): PLANO/dolly-6-plano.jpg -> [WinError 123] A sintaxe do nome do arquivo, do nome do diretório ou do rótulo do volume está incorreta
+  ❌ Erro ao copiar (com zero): PLANO/dolly-7-plano.jpg -> [WinError 123] A sintaxe do nome do arquivo, do nome do diretório ou do rótulo do volume está incorreta
+  ❌ Erro ao copiar (com zero): TEXTURA/dolly-1-caimento.jpg -> [WinError 123] A sintaxe do nome do arquivo, do nome do diretório ou do rótulo do volume está incorreta
+  ❌ Erro ao copiar (com zero): TEXTURA/dolly-2-caimento.jpg -> [WinError 123] A sintaxe do nome do arquivo, do nome do diretório ou do rótulo do volume está incorreta
+  ❌ Erro ao copiar (com zero): TEXTURA/dolly-3-caimento.jpg -> [WinError 123] A sintaxe do nome do arquivo, do nome do diretório ou do rótulo do volume está incorreta
+  ❌ Erro ao copiar (com zero): TEXTURA/dolly-4-caimento.jpg -> [WinError 123] A sintaxe do nome do arquivo, do nome do diretório ou do rótulo do volume está incorreta
+  ❌ Erro ao copiar (com zero): TEXTURA/dolly-5-caimento.jpg -> [WinError 123] A sintaxe do nome do arquivo, do nome do diretório ou do rótulo do volume está incorreta
+  ❌ Erro ao copiar (com zero): TEXTURA/dolly-6-caimento.jpg -> [WinError 123] A sintaxe do nome do arquivo, do nome do diretório ou do rótulo do volume está incorreta
+  ❌ Erro ao copiar (com zero): TEXTURA/dolly-7-caimento.jpg -> [WinError 123] A sintaxe do nome do arquivo, do nome do diretório ou do rótulo do volume está incorreta
+
+  ✓ COM zeros: 37 arquivos
+  ✓ SEM zeros: 37 arquivos
+  ✗ Erros: 14
+
+================================================================================
+Processando CSV: renomeacao_blackouts.csv
+================================================================================
+✓ Pasta encontrada: BLACKOUTS
+
+  ✓ COM zeros: 7 arquivos
+  ✓ SEM zeros: 7 arquivos
+
+================================================================================
+Processando CSV: renomeacao_gaze_linare.csv
+================================================================================
+✓ Pasta encontrada: GAZE LINARE
+
+  ✓ COM zeros: 12 arquivos
+  ✓ SEM zeros: 12 arquivos
+
+================================================================================
+Processando CSV: renomeacao_infinite.csv
+================================================================================
+✓ Pasta encontrada: INFINITE
+
+  ✓ COM zeros: 62 arquivos
+  ✓ SEM zeros: 62 arquivos
+
+================================================================================
+Processando CSV: renomeacao_linha_industrial.csv
+================================================================================
+✓ Pasta encontrada: LINHA INDUSTRIAL
+
+  ✓ COM zeros: 66 arquivos
+  ✓ SEM zeros: 66 arquivos
+
+================================================================================
+RESUMO FINAL
+================================================================================
+Total de CSVs processados: 7
+Total de linhas processadas: 320
+
+✓ Imagens COM zeros criadas: 282
+✓ Imagens SEM zeros criadas: 282
+✗ Total de erros: 38
+
+Taxa de sucesso: 88.1%
+
+================================================================================
+EXEMPLOS DE RENOMEAÇÃO
+================================================================================
+COM zeros à esquerda:
+  09423 - TECIDO LINHO ALBA COR 01 BRANCO - PLANO.jpg
+  00027 - TECIDO EXEMPLO COR 02 - TEXTURA.jpg
+
+SEM zeros à esquerda:
+  9423 - TECIDO LINHO ALBA COR 01 BRANCO - PLANO.jpg
+  27 - TECIDO EXEMPLO COR 02 - TEXTURA.jpg
+

@@ -1,8 +1,9 @@
 ================================================================================
-GERAÇÃO DE CSVs DE RENOMEAÇÃO - CORTINAS V4 (BUSCA EXATA)
+GERAÇÃO DE CSVs DE RENOMEAÇÃO - CORTINAS V5 (COM ALIASES)
 ================================================================================
 
-Total de produtos indexados: 259
+Total de produtos indexados: 248
+Total de índices alternativos: 485
 
 Total de books encontrados: 8
 
@@ -10,14 +11,12 @@ Total de books encontrados: 8
 Processando book: 501
 ================================================================================
 Total de arquivos: 75
+  🔄 Alias aplicado: LUXORI → LUXOR
+  🔄 Alias aplicado: LUXORI → LUXOR
+  🔄 Alias aplicado: MENFIIS → MENFIS
+  🔄 Alias aplicado: MENFIIS → MENFIS
 
-  ⚠️ Não encontrados no Excel (4):
-    - linho-luxori-plano-2.jpg (tecido: LUXORI, cor: 2)
-    - linho-luxori-plano-3.jpg (tecido: LUXORI, cor: 3)
-    - linho-menfiis-plano-1.jpg (tecido: MENFIIS, cor: 1)
-    - linho-menfiis-plano-2.jpg (tecido: MENFIIS, cor: 2)
-
-Mapeamentos gerados: 71
+Mapeamentos gerados: 75
 ✓ CSV salvo: renomeacao_501.csv
 
 ================================================================================
@@ -34,30 +33,18 @@ Processando book: 503
 ================================================================================
 Total de arquivos: 51
 
-  ⚠️ Não encontrados no Excel (8):
-    - forro-oxford-1-plano.jpg (tecido: OXFORD, cor: 1)
-    - forro-oxford-2-plano.jpg (tecido: OXFORD, cor: 2)
-    - forro-oxford-4-plano.jpg (tecido: OXFORD, cor: 4)
-    - forro-oxford-5-plano.jpg (tecido: OXFORD, cor: 5)
-    - forro-oxford-1-caimento.jpg (tecido: OXFORD, cor: 1)
-    - forro-oxford-2-caimento.jpg (tecido: OXFORD, cor: 2)
-    - forro-oxford-4-caimento.jpg (tecido: OXFORD, cor: 4)
-    - forro-oxford-5-caimento.jpg (tecido: OXFORD, cor: 5)
-
-Mapeamentos gerados: 43
+Mapeamentos gerados: 51
 ✓ CSV salvo: renomeacao_503.csv
 
 ================================================================================
 Processando book: BLACKOUTS
 ================================================================================
 Total de arquivos: 7
+  🔄 Alias aplicado: ZEUS → SUPERBLACK
+  🔄 Alias aplicado: ZEUS → SUPERBLACK
+  🔄 Alias aplicado: ZEUS → SUPERBLACK
 
-  ⚠️ Não encontrados no Excel (3):
-    - ZEUS (1).png (tecido: ZEUS, cor: 1)
-    - ZEUS (2).png (tecido: ZEUS, cor: 2)
-    - ZEUS (3).png (tecido: ZEUS, cor: 3)
-
-Mapeamentos gerados: 4
+Mapeamentos gerados: 7
 ✓ CSV salvo: renomeacao_blackouts.csv
 
 ================================================================================
@@ -73,36 +60,43 @@ Processando book: INFINITE
 ================================================================================
 Total de arquivos: 62
 
-  ⚠️ Não encontrados no Excel (6):
-    - capri-plano-1.jpg (tecido: CAPRI, cor: 1)
-    - capri-caimento-1.jpg (tecido: CAPRI, cor: 1)
-    - chievo-cimento-1.jpg (tecido: CIMENTO, cor: 1)
-    - chievo-cimento-2.jpg (tecido: CIMENTO, cor: 2)
-    - chievo-cimento-3.jpg (tecido: CIMENTO, cor: 3)
-    - chievo-cimento-4.jpg (tecido: CIMENTO, cor: 4)
-
-Mapeamentos gerados: 56
+Mapeamentos gerados: 62
 ✓ CSV salvo: renomeacao_infinite.csv
 
 ================================================================================
 Processando book: LINHA INDUSTRIAL
 ================================================================================
 Total de arquivos: 67
+  🔄 Alias aplicado: PRINSCESS → PRINCESS
+  🔄 Alias aplicado: PRINSCESS → PRINCESS
+  🔄 Alias aplicado: PRINSCESS → PRINCESS
+  🔄 Alias aplicado: PRINSCESS → PRINCESS
+  🔄 Alias aplicado: PRINSCESS → PRINCESS
+  🔄 Alias aplicado: PRINSCESS → PRINCESS
+  🔄 Alias aplicado: PRINSCESS → PRINCESS
+  🔄 Alias aplicado: PRINSCESS → PRINCESS
+  🔄 Alias aplicado: PRINSCESS → PRINCESS
+  🔄 Alias aplicado: PRINSCESS → PRINCESS
+  🔄 Alias aplicado: PRINSCESS → PRINCESS
+  🔄 Alias aplicado: PRINSCESS → PRINCESS
+  🔄 Alias aplicado: PRINSCESS → PRINCESS
+  🔄 Alias aplicado: PRINSCESS → PRINCESS
+  🔄 Alias aplicado: PRINSCESS → PRINCESS
+  🔄 Alias aplicado: PRINSCESS → PRINCESS
+  🔄 Alias aplicado: PRINSCESS → PRINCESS
+  🔄 Alias aplicado: PRINSCESS → PRINCESS
+  🔄 Alias aplicado: PRINSCESS → PRINCESS
+  🔄 Alias aplicado: PRINSCESS → PRINCESS
+  🔄 Alias aplicado: PRINSCESS → PRINCESS
+  🔄 Alias aplicado: PRINSCESS → PRINCESS
+  🔄 Alias aplicado: PRINSCESS → PRINCESS
+  🔄 Alias aplicado: PRINSCESS → PRINCESS
+  🔄 Alias aplicado: PRINSCESS → PRINCESS
 
-  ⚠️ Não encontrados no Excel (26):
-    - JACQUARD PRINSCESS 01 PLANO.jpg (tecido: PRINSCESS, cor: 1)
-    - JACQUARD PRINSCESS 02 PLANO.jpg (tecido: PRINSCESS, cor: 2)
+  ⚠️ Não encontrados no Excel (1):
     - JACQUARD PRINSCESS 03 PLAN O.jpg (tecido: PLAN, cor: 3)
-    - JACQUARD PRINSCESS 04 PLANO.jpg (tecido: PRINSCESS, cor: 4)
-    - JACQUARD PRINSCESS 05 PLANO.jpg (tecido: PRINSCESS, cor: 5)
-    - JACQUARD PRINSCESS 06 PLANO.jpg (tecido: PRINSCESS, cor: 6)
-    - JACQUARD PRINSCESS 07 PLANO.jpg (tecido: PRINSCESS, cor: 7)
-    - JACQUARD PRINSCESS 08 PLANO.jpg (tecido: PRINSCESS, cor: 8)
-    - JACQUARD PRINSCESS 09 PLANO.jpg (tecido: PRINSCESS, cor: 9)
-    - JACQUARD PRINSCESS 10 PLANO.jpg (tecido: PRINSCESS, cor: 10)
-    ... e mais 16
 
-Mapeamentos gerados: 41
+Mapeamentos gerados: 66
 ✓ CSV salvo: renomeacao_linha_industrial.csv
 
 ================================================================================
@@ -116,6 +110,6 @@ RESUMO FINAL
 ================================================================================
 Total de books processados: 8
 Total de CSVs gerados: 7
-Total de mapeamentos: 274
-Total de não encontrados: 47
+Total de mapeamentos: 320
+Total de não encontrados: 1
 

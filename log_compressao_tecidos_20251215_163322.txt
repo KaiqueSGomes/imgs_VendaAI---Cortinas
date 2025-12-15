@@ -1,0 +1,99 @@
+================================================================================
+COMPRESSÃO DE IMAGENS DE TECIDOS - EDANTEX
+================================================================================
+Data/Hora: 15/12/2025 16:33:24
+Tamanho máximo: 1.00 MB
+
+✓ Pasta: c:\Users\kaique.gomes\OneDrive - Grupo WK\Projetos\img_VendaAI - Cortinas\imagens
+
+✓ Total de books encontrados: 10
+
+[1/10] Processando book: 501
+--------------------------------------------------------------------------------
+  Processando: PLANO
+    ✓ Comprimidos: 3
+    ⏭️ Mantidos: 34
+  Processando: TEXTURA
+    ✓ Comprimidos: 31
+    ⏭️ Mantidos: 7
+
+[2/10] Processando book: 502
+--------------------------------------------------------------------------------
+  Processando: PLANO
+    ✓ Comprimidos: 24
+    ⏭️ Mantidos: 0
+  Processando: TEXTURA
+    ✓ Comprimidos: 24
+    ⏭️ Mantidos: 0
+
+[3/10] Processando book: 503
+--------------------------------------------------------------------------------
+  Processando: PLANO
+    ✓ Comprimidos: 25
+    ⏭️ Mantidos: 0
+  Processando: TEXTURA
+    ✓ Comprimidos: 26
+    ⏭️ Mantidos: 0
+
+[4/10] Processando book: BLACKOUTS
+--------------------------------------------------------------------------------
+  Processando: PLANO
+    ✓ Comprimidos: 5
+    ⏭️ Mantidos: 0
+  Processando: TEXTURA
+    ✓ Comprimidos: 2
+    ⏭️ Mantidos: 0
+
+[5/10] Processando book: DARK
+--------------------------------------------------------------------------------
+  ⚠️ Nenhuma subpasta PLANO/TEXTURA encontrada, pulando...
+
+[6/10] Processando book: FORA DE LINHA
+--------------------------------------------------------------------------------
+  ⚠️ Nenhuma subpasta PLANO/TEXTURA encontrada, pulando...
+
+[7/10] Processando book: GAZE LINARE
+--------------------------------------------------------------------------------
+  Processando: PLANO
+    ✓ Comprimidos: 6
+    ⏭️ Mantidos: 0
+  Processando: TEXTURA
+    ✓ Comprimidos: 6
+    ⏭️ Mantidos: 0
+
+[8/10] Processando book: INFINITE
+--------------------------------------------------------------------------------
+  Processando: PLANO
+    ✓ Comprimidos: 37
+    ⏭️ Mantidos: 0
+  Processando: TEXTURA
+    ✓ Comprimidos: 25
+    ⏭️ Mantidos: 0
+
+[9/10] Processando book: LINHA INDUSTRIAL
+--------------------------------------------------------------------------------
+  Processando: PLANO
+    ✓ Comprimidos: 31
+    ⏭️ Mantidos: 0
+  Processando: TEXTURA
+    ✓ Comprimidos: 36
+    ⏭️ Mantidos: 0
+
+[10/10] Processando book: OUTROS
+--------------------------------------------------------------------------------
+  ⚠️ Nenhuma subpasta PLANO/TEXTURA encontrada, pulando...
+
+================================================================================
+RESUMO FINAL
+================================================================================
+Total de books processados: 10
+Total de arquivos processados: 322
+Total de arquivos comprimidos: 281
+Total de arquivos mantidos: 41
+Total de erros: 0
+Espaço economizado: 2.00 GB
+Taxa de sucesso: 100.0%
+
+================================================================================
+✓ COMPRESSÃO CONCLUÍDA
+================================================================================

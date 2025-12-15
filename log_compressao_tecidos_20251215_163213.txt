@@ -1,0 +1,13 @@
+================================================================================
+COMPRESSÃO DE IMAGENS DE TECIDOS - EDANTEX
+================================================================================
+Data/Hora: 15/12/2025 16:32:19
+Tamanho máximo: 1.00 MB
+
+✓ Pasta: c:\Users\kaique.gomes\OneDrive - Grupo WK\Projetos\img_VendaAI - Cortinas\imagens
+
+✓ Total de books encontrados: 10
+
+[1/10] Processando book: 501
+--------------------------------------------------------------------------------
+  Processando: PLANO

@@ -1,0 +1,338 @@
+"""
+Script para Comprimir Imagens de Tecidos - Edantex
+Autor: Manus AI
+Data: 12/12/2025
+
+OBJETIVO:
+- Comprimir todas as imagens de tecidos para máximo 1MB
+- Navegar por estrutura: imagens/BOOK/PLANO e TEXTURA
+- Ajustar qualidade automaticamente
+- Manter proporções originais
+
+ESTRUTURA ESPERADA:
+imagens/
+├── INFINITE/
+│   ├── PLANO/
+│   │   └── *.jpg
+│   └── TEXTURA/
+│       └── *.jpg
+├── BLACKOUTS/
+│   ├── PLANO/
+│   └── TEXTURA/
+└── ... (outros books)
+
+USO:
+1. Coloque este script na pasta raiz do projeto
+2. Certifique-se de que a pasta 'imagens/' existe
+3. FAÇA BACKUP antes de executar!
+4. Execute: python comprimir_tecidos.py
+5. As imagens serão comprimidas diretamente (in-place)
+"""
+
+import os
+from PIL import Image
+from datetime import datetime
+import io
+
+# ==============================================================================
+# CONFIGURAÇÕES
+# ==============================================================================
+
+SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+IMAGENS_DIR = os.path.join(SCRIPT_DIR, 'imagens')
+LOG_FILE = os.path.join(SCRIPT_DIR, f'log_compressao_tecidos_{datetime.now().strftime("%Y%m%d_%H%M%S")}.txt')
+
+# Tamanho máximo em bytes (1MB)
+MAX_SIZE_BYTES = 1 * 1024 * 1024
+
+# Qualidade inicial para tentar
+QUALIDADE_INICIAL = 85
+
+# ==============================================================================
+# FUNÇÕES
+# ==============================================================================
+
+log_buffer = []
+
+def add_log(mensagem):
+    """Adiciona mensagem ao log e imprime na tela"""
+    print(mensagem)
+    log_buffer.append(mensagem + '\n')
+
+def salvar_log():
+    """Salva o log em arquivo"""
+    with open(LOG_FILE, 'w', encoding='utf-8') as f:
+        f.writelines(log_buffer)
+    print(f"\n✓ Log salvo em: {LOG_FILE}")
+
+def formatar_tamanho(bytes_size):
+    """Formata tamanho em bytes para formato legível"""
+    for unit in ['B', 'KB', 'MB', 'GB']:
+        if bytes_size < 1024.0:
+            return f"{bytes_size:.2f} {unit}"
+        bytes_size /= 1024.0
+    return f"{bytes_size:.2f} TB"
+
+def comprimir_imagem(caminho_imagem, max_size_bytes=MAX_SIZE_BYTES):
+    """
+    Comprime uma imagem para que fique abaixo do tamanho máximo
+    
+    Retorna: (sucesso, tamanho_original, tamanho_final, qualidade_usada)
+    """
+    try:
+        # Obter tamanho original
+        tamanho_original = os.path.getsize(caminho_imagem)
+        
+        # Se já está abaixo do limite, não faz nada
+        if tamanho_original <= max_size_bytes:
+            return True, tamanho_original, tamanho_original, 100
+        
+        # Abrir imagem
+        img = Image.open(caminho_imagem)
+        
+        # Converter RGBA para RGB se necessário
+        if img.mode == 'RGBA':
+            # Criar fundo branco
+            background = Image.new('RGB', img.size, (255, 255, 255))
+            background.paste(img, mask=img.split()[3])  # 3 é o canal alpha
+            img = background
+        elif img.mode != 'RGB':
+            img = img.convert('RGB')
+        
+        # Tentar diferentes qualidades
+        qualidade = QUALIDADE_INICIAL
+        melhor_qualidade = qualidade
+        
+        while qualidade > 10:
+            # Salvar em buffer de memória
+            buffer = io.BytesIO()
+            img.save(buffer, format='JPEG', quality=qualidade, optimize=True)
+            tamanho_comprimido = buffer.tell()
+            
+            # Se ficou abaixo do limite, salvar
+            if tamanho_comprimido <= max_size_bytes:
+                # Salvar no arquivo
+                with open(caminho_imagem, 'wb') as f:
+                    f.write(buffer.getvalue())
+                
+                melhor_qualidade = qualidade
+                return True, tamanho_original, tamanho_comprimido, melhor_qualidade
+            
+            # Reduzir qualidade
+            qualidade -= 5
+        
+        # Se não conseguiu comprimir o suficiente, tentar reduzir dimensões
+        # Reduzir para 80% do tamanho original
+        largura, altura = img.size
+        nova_largura = int(largura * 0.8)
+        nova_altura = int(altura * 0.8)
+        
+        img_reduzida = img.resize((nova_largura, nova_altura), Image.Resampling.LANCZOS)
+        
+        # Tentar comprimir novamente
+        qualidade = QUALIDADE_INICIAL
+        
+        while qualidade > 10:
+            buffer = io.BytesIO()
+            img_reduzida.save(buffer, format='JPEG', quality=qualidade, optimize=True)
+            tamanho_comprimido = buffer.tell()
+            
+            if tamanho_comprimido <= max_size_bytes:
+                with open(caminho_imagem, 'wb') as f:
+                    f.write(buffer.getvalue())
+                
+                melhor_qualidade = qualidade
+                return True, tamanho_original, tamanho_comprimido, melhor_qualidade
+            
+            qualidade -= 5
+        
+        # Se ainda não conseguiu, salvar com qualidade mínima
+        buffer = io.BytesIO()
+        img_reduzida.save(buffer, format='JPEG', quality=10, optimize=True)
+        
+        with open(caminho_imagem, 'wb') as f:
+            f.write(buffer.getvalue())
+        
+        tamanho_final = os.path.getsize(caminho_imagem)
+        
+        return True, tamanho_original, tamanho_final, 10
+        
+    except Exception as e:
+        return False, 0, 0, 0
+
+def processar_compressao():
+    """Processa a compressão de todas as imagens"""
+    
+    add_log("="*80)
+    add_log("COMPRESSÃO DE IMAGENS DE TECIDOS - EDANTEX")
+    add_log("="*80)
+    add_log(f"Data/Hora: {datetime.now().strftime('%d/%m/%Y %H:%M:%S')}")
+    add_log(f"Tamanho máximo: {formatar_tamanho(MAX_SIZE_BYTES)}")
+    add_log("")
+    
+    # Verificar se a pasta existe
+    if not os.path.exists(IMAGENS_DIR):
+        add_log(f"❌ Pasta não encontrada: {IMAGENS_DIR}")
+        salvar_log()
+        return False
+    
+    add_log(f"✓ Pasta: {IMAGENS_DIR}")
+    add_log("")
+    
+    # Listar books (subpastas)
+    books = [d for d in os.listdir(IMAGENS_DIR) 
+             if os.path.isdir(os.path.join(IMAGENS_DIR, d))]
+    
+    if len(books) == 0:
+        add_log("❌ Nenhum book encontrado em 'imagens/'")
+        salvar_log()
+        return False
+    
+    add_log(f"✓ Total de books encontrados: {len(books)}")
+    add_log("")
+    
+    # Estatísticas
+    total_arquivos = 0
+    total_comprimidos = 0
+    total_mantidos = 0
+    total_erros = 0
+    bytes_economizados = 0
+    
+    # Processar cada book
+    for idx_book, book in enumerate(sorted(books), 1):
+        book_path = os.path.join(IMAGENS_DIR, book)
+        
+        add_log(f"[{idx_book}/{len(books)}] Processando book: {book}")
+        add_log("-" * 80)
+        
+        # Verificar se tem subpastas PLANO e TEXTURA
+        subpastas = []
+        
+        plano_path = os.path.join(book_path, 'PLANO')
+        textura_path = os.path.join(book_path, 'TEXTURA')
+        
+        if os.path.exists(plano_path):
+            subpastas.append(('PLANO', plano_path))
+        
+        if os.path.exists(textura_path):
+            subpastas.append(('TEXTURA', textura_path))
+        
+        if len(subpastas) == 0:
+            add_log(f"  ⚠️ Nenhuma subpasta PLANO/TEXTURA encontrada, pulando...")
+            add_log("")
+            continue
+        
+        # Processar cada subpasta
+        for nome_subpasta, subpasta_path in subpastas:
+            add_log(f"  Processando: {nome_subpasta}")
+            
+            # Listar imagens
+            imagens = [f for f in os.listdir(subpasta_path) 
+                      if f.lower().endswith(('.jpg', '.jpeg', '.png', '.webp'))]
+            
+            if len(imagens) == 0:
+                add_log(f"    ⚠️ Nenhuma imagem encontrada")
+                continue
+            
+            # Processar cada imagem
+            comprimidos = 0
+            mantidos = 0
+            erros = 0
+            
+            for imagem in imagens:
+                caminho_imagem = os.path.join(subpasta_path, imagem)
+                
+                sucesso, tam_original, tam_final, qualidade = comprimir_imagem(caminho_imagem)
+                
+                if sucesso:
+                    if tam_original > tam_final:
+                        comprimidos += 1
+                        total_comprimidos += 1
+                        bytes_economizados += (tam_original - tam_final)
+                    else:
+                        mantidos += 1
+                        total_mantidos += 1
+                else:
+                    erros += 1
+                    total_erros += 1
+                    add_log(f"    ❌ Erro ao comprimir: {imagem}")
+                
+                total_arquivos += 1
+            
+            add_log(f"    ✓ Comprimidos: {comprimidos}")
+            add_log(f"    ⏭️ Mantidos: {mantidos}")
+            if erros > 0:
+                add_log(f"    ✗ Erros: {erros}")
+        
+        add_log("")
+    
+    # Resumo final
+    add_log("="*80)
+    add_log("RESUMO FINAL")
+    add_log("="*80)
+    add_log(f"Total de books processados: {len(books)}")
+    add_log(f"Total de arquivos processados: {total_arquivos}")
+    add_log(f"Total de arquivos comprimidos: {total_comprimidos}")
+    add_log(f"Total de arquivos mantidos: {total_mantidos}")
+    add_log(f"Total de erros: {total_erros}")
+    add_log(f"Espaço economizado: {formatar_tamanho(bytes_economizados)}")
+    
+    if total_arquivos > 0:
+        taxa_sucesso = ((total_comprimidos + total_mantidos) / total_arquivos) * 100
+        add_log(f"Taxa de sucesso: {taxa_sucesso:.1f}%")
+    
+    add_log("")
+    add_log("="*80)
+    add_log("✓ COMPRESSÃO CONCLUÍDA")
+    add_log("="*80)
+    
+    salvar_log()
+    
+    return total_erros == 0
+
+# ==============================================================================
+# EXECUÇÃO
+# ==============================================================================
+
+if __name__ == "__main__":
+    try:
+        print("="*80)
+        print("⚠️  ATENÇÃO")
+        print("="*80)
+        print("")
+        print("Este script vai COMPRIMIR as imagens diretamente!")
+        print("Certifique-se de ter um backup antes de continuar.")
+        print("")
+        print("="*80)
+        
+        resposta = input("\nDeseja continuar? (digite 'SIM' para confirmar): ").strip().upper()
+        
+        if resposta != 'SIM':
+            print("\n⚠️ Operação cancelada pelo usuário.")
+            input("\nPressione ENTER para sair...")
+            exit(0)
+        
+        print("\nIniciando compressão...\n")
+        
+        sucesso = processar_compressao()
+        
+        if sucesso:
+            print("\n" + "="*80)
+            print("✅ COMPRESSÃO CONCLUÍDA COM SUCESSO!")
+            print("="*80)
+            print(f"\nVerifique o log em: {LOG_FILE}")
+        else:
+            print("\n" + "="*80)
+            print("⚠️ COMPRESSÃO CONCLUÍDA COM ERROS")
+            print("="*80)
+            print(f"\nVerifique o log para mais detalhes: {LOG_FILE}")
+        
+        input("\nPressione ENTER para sair...")
+        
+    except KeyboardInterrupt:
+        print("\n\n⚠️ Operação interrompida pelo usuário")
+        salvar_log()
+    except Exception as e:
+        print(f"\n\n❌ ERRO FATAL: {e}")
+        add_log(f"\n\nERRO FATAL: {e}")
+        salvar_log()

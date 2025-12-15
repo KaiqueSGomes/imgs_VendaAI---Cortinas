@@ -1,0 +1,13 @@
+Passo a passo renomear imagens
+
+1 - Transformar arquivo excel em csv para manipular melhor os dados em python (pandas)
+
+2 - Fazer o download das imagens dos tecidos de cortina que estão na planilha
+
+3 - Comprimir as imagens baixadas
+
+4 - colocar no GitHub para a Manus acessar a pasta e trabalhar melhor em cima disso
+
+5 - gerar os arquivos de renomeação
+
+6 - renomear as imagens

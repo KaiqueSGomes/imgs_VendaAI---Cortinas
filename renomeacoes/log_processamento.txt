@@ -1,0 +1,84 @@
+================================================================================
+GERAÇÃO DE CSVs DE RENOMEAÇÃO - CORTINAS V2
+================================================================================
+
+Total de produtos no Excel: 341
+
+Total de books encontrados: 8
+
+================================================================================
+Processando book: 501
+================================================================================
+Total de arquivos: 75
+
+  ⚠️ Não encontrados no Excel (1):
+    - tesla-textura-1-399.jpg (tecido: tesla1, cor: 399)
+
+Mapeamentos gerados: 74
+✓ CSV salvo: renomeacao_501.csv
+
+================================================================================
+Processando book: 502
+================================================================================
+Total de arquivos: 48
+
+Mapeamentos gerados: 48
+✓ CSV salvo: renomeacao_502.csv
+
+================================================================================
+Processando book: 503
+================================================================================
+Total de arquivos: 51
+
+  ⚠️ Não encontrados no Excel (1):
+    - damasco-1-caimento-3.jpg (tecido: damasco, cor: 13)
+
+Mapeamentos gerados: 50
+✓ CSV salvo: renomeacao_503.csv
+
+================================================================================
+Processando book: BLACKOUTS
+================================================================================
+Total de arquivos: 7
+
+Mapeamentos gerados: 7
+✓ CSV salvo: renomeacao_blackouts.csv
+
+================================================================================
+Processando book: GAZE LINARE
+================================================================================
+Total de arquivos: 12
+
+Mapeamentos gerados: 12
+✓ CSV salvo: renomeacao_gaze_linare.csv
+
+================================================================================
+Processando book: INFINITE
+================================================================================
+Total de arquivos: 62
+
+Mapeamentos gerados: 62
+✓ CSV salvo: renomeacao_infinite.csv
+
+================================================================================
+Processando book: LINHA INDUSTRIAL
+================================================================================
+Total de arquivos: 67
+
+Mapeamentos gerados: 67
+✓ CSV salvo: renomeacao_linha_industrial.csv
+
+================================================================================
+Processando book: OUTROS
+================================================================================
+Total de arquivos: 0
+Nenhum arquivo encontrado, pulando...
+
+================================================================================
+RESUMO FINAL
+================================================================================
+Total de books processados: 8
+Total de CSVs gerados: 7
+Total de mapeamentos: 320
+Total de não encontrados: 2
+

@@ -1,8 +1,8 @@
 ================================================================================
-GERAÇÃO DE CSVs DE RENOMEAÇÃO - CORTINAS V2
+GERAÇÃO DE CSVs DE RENOMEAÇÃO - CORTINAS V3 (CORRIGIDO)
 ================================================================================
 
-Total de produtos no Excel: 341
+Total de produtos base identificados: 83
 
 Total de books encontrados: 8
 
@@ -11,18 +11,16 @@ Processando book: 501
 ================================================================================
 Total de arquivos: 75
 
-  ⚠️ Não encontrados no Excel (1):
-    - tesla-textura-1-399.jpg (tecido: tesla1, cor: 399)
-
-Mapeamentos gerados: 74
+Mapeamentos gerados: 75
 ✓ CSV salvo: renomeacao_501.csv
 
 ================================================================================
 Processando book: 502
 ================================================================================
 Total de arquivos: 48
+  ⏭️ Ignorado (sem número): linhao-textura-2_.jpg
 
-Mapeamentos gerados: 48
+Mapeamentos gerados: 47
 ✓ CSV salvo: renomeacao_502.csv
 
 ================================================================================
@@ -30,10 +28,17 @@ Processando book: 503
 ================================================================================
 Total de arquivos: 51
 
-  ⚠️ Não encontrados no Excel (1):
-    - damasco-1-caimento-3.jpg (tecido: damasco, cor: 13)
+  ⚠️ Não encontrados no Excel (8):
+    - forro-oxford-1-plano.jpg (tecido: forro-oxford, cor: 1)
+    - forro-oxford-2-plano.jpg (tecido: forro-oxford, cor: 2)
+    - forro-oxford-4-plano.jpg (tecido: forro-oxford, cor: 4)
+    - forro-oxford-5-plano.jpg (tecido: forro-oxford, cor: 5)
+    - forro-oxford-1-caimento.jpg (tecido: forro-oxford, cor: 1)
+    - forro-oxford-2-caimento.jpg (tecido: forro-oxford, cor: 2)
+    - forro-oxford-4-caimento.jpg (tecido: forro-oxford, cor: 4)
+    - forro-oxford-5-caimento.jpg (tecido: forro-oxford, cor: 5)
 
-Mapeamentos gerados: 50
+Mapeamentos gerados: 43
 ✓ CSV salvo: renomeacao_503.csv
 
 ================================================================================
@@ -41,7 +46,10 @@ Processando book: BLACKOUTS
 ================================================================================
 Total de arquivos: 7
 
-Mapeamentos gerados: 7
+  ⚠️ Não encontrados no Excel (1):
+    - ZEUS (2).png (tecido: zeus ( ), cor: 2)
+
+Mapeamentos gerados: 6
 ✓ CSV salvo: renomeacao_blackouts.csv
 
 ================================================================================
@@ -57,7 +65,11 @@ Processando book: INFINITE
 ================================================================================
 Total de arquivos: 62
 
-Mapeamentos gerados: 62
+  ⚠️ Não encontrados no Excel (2):
+    - capri-plano-1.jpg (tecido: capri, cor: 1)
+    - capri-caimento-1.jpg (tecido: capri, cor: 1)
+
+Mapeamentos gerados: 60
 ✓ CSV salvo: renomeacao_infinite.csv
 
 ================================================================================
@@ -65,7 +77,10 @@ Processando book: LINHA INDUSTRIAL
 ================================================================================
 Total de arquivos: 67
 
-Mapeamentos gerados: 67
+  ⚠️ Não encontrados no Excel (1):
+    - JACQUARD PRINSCESS 03 PLAN O.jpg (tecido: jacquard prinscess plan o, cor: 3)
+
+Mapeamentos gerados: 66
 ✓ CSV salvo: renomeacao_linha_industrial.csv
 
 ================================================================================
@@ -79,6 +94,6 @@ RESUMO FINAL
 ================================================================================
 Total de books processados: 8
 Total de CSVs gerados: 7
-Total de mapeamentos: 320
-Total de não encontrados: 2
+Total de mapeamentos: 309
+Total de não encontrados: 12
 

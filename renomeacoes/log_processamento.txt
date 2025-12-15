@@ -1,8 +1,8 @@
 ================================================================================
-GERAÇÃO DE CSVs DE RENOMEAÇÃO - CORTINAS V3 (CORRIGIDO)
+GERAÇÃO DE CSVs DE RENOMEAÇÃO - CORTINAS V4 (BUSCA EXATA)
 ================================================================================
 
-Total de produtos base identificados: 83
+Total de produtos indexados: 259
 
 Total de books encontrados: 8
 
@@ -11,14 +11,20 @@ Processando book: 501
 ================================================================================
 Total de arquivos: 75
 
-Mapeamentos gerados: 75
+  ⚠️ Não encontrados no Excel (4):
+    - linho-luxori-plano-2.jpg (tecido: LUXORI, cor: 2)
+    - linho-luxori-plano-3.jpg (tecido: LUXORI, cor: 3)
+    - linho-menfiis-plano-1.jpg (tecido: MENFIIS, cor: 1)
+    - linho-menfiis-plano-2.jpg (tecido: MENFIIS, cor: 2)
+
+Mapeamentos gerados: 71
 ✓ CSV salvo: renomeacao_501.csv
 
 ================================================================================
 Processando book: 502
 ================================================================================
 Total de arquivos: 48
-  ⏭️ Ignorado (sem número): linhao-textura-2_.jpg
+  ⏭️ Ignorado (sem identificação): linhao-textura-2_.jpg
 
 Mapeamentos gerados: 47
 ✓ CSV salvo: renomeacao_502.csv
@@ -29,14 +35,14 @@ Processando book: 503
 Total de arquivos: 51
 
   ⚠️ Não encontrados no Excel (8):
-    - forro-oxford-1-plano.jpg (tecido: forro-oxford, cor: 1)
-    - forro-oxford-2-plano.jpg (tecido: forro-oxford, cor: 2)
-    - forro-oxford-4-plano.jpg (tecido: forro-oxford, cor: 4)
-    - forro-oxford-5-plano.jpg (tecido: forro-oxford, cor: 5)
-    - forro-oxford-1-caimento.jpg (tecido: forro-oxford, cor: 1)
-    - forro-oxford-2-caimento.jpg (tecido: forro-oxford, cor: 2)
-    - forro-oxford-4-caimento.jpg (tecido: forro-oxford, cor: 4)
-    - forro-oxford-5-caimento.jpg (tecido: forro-oxford, cor: 5)
+    - forro-oxford-1-plano.jpg (tecido: OXFORD, cor: 1)
+    - forro-oxford-2-plano.jpg (tecido: OXFORD, cor: 2)
+    - forro-oxford-4-plano.jpg (tecido: OXFORD, cor: 4)
+    - forro-oxford-5-plano.jpg (tecido: OXFORD, cor: 5)
+    - forro-oxford-1-caimento.jpg (tecido: OXFORD, cor: 1)
+    - forro-oxford-2-caimento.jpg (tecido: OXFORD, cor: 2)
+    - forro-oxford-4-caimento.jpg (tecido: OXFORD, cor: 4)
+    - forro-oxford-5-caimento.jpg (tecido: OXFORD, cor: 5)
 
 Mapeamentos gerados: 43
 ✓ CSV salvo: renomeacao_503.csv
@@ -46,10 +52,12 @@ Processando book: BLACKOUTS
 ================================================================================
 Total de arquivos: 7
 
-  ⚠️ Não encontrados no Excel (1):
-    - ZEUS (2).png (tecido: zeus ( ), cor: 2)
+  ⚠️ Não encontrados no Excel (3):
+    - ZEUS (1).png (tecido: ZEUS, cor: 1)
+    - ZEUS (2).png (tecido: ZEUS, cor: 2)
+    - ZEUS (3).png (tecido: ZEUS, cor: 3)
 
-Mapeamentos gerados: 6
+Mapeamentos gerados: 4
 ✓ CSV salvo: renomeacao_blackouts.csv
 
 ================================================================================
@@ -65,11 +73,15 @@ Processando book: INFINITE
 ================================================================================
 Total de arquivos: 62
 
-  ⚠️ Não encontrados no Excel (2):
-    - capri-plano-1.jpg (tecido: capri, cor: 1)
-    - capri-caimento-1.jpg (tecido: capri, cor: 1)
+  ⚠️ Não encontrados no Excel (6):
+    - capri-plano-1.jpg (tecido: CAPRI, cor: 1)
+    - capri-caimento-1.jpg (tecido: CAPRI, cor: 1)
+    - chievo-cimento-1.jpg (tecido: CIMENTO, cor: 1)
+    - chievo-cimento-2.jpg (tecido: CIMENTO, cor: 2)
+    - chievo-cimento-3.jpg (tecido: CIMENTO, cor: 3)
+    - chievo-cimento-4.jpg (tecido: CIMENTO, cor: 4)
 
-Mapeamentos gerados: 60
+Mapeamentos gerados: 56
 ✓ CSV salvo: renomeacao_infinite.csv
 
 ================================================================================
@@ -77,10 +89,20 @@ Processando book: LINHA INDUSTRIAL
 ================================================================================
 Total de arquivos: 67
 
-  ⚠️ Não encontrados no Excel (1):
-    - JACQUARD PRINSCESS 03 PLAN O.jpg (tecido: jacquard prinscess plan o, cor: 3)
+  ⚠️ Não encontrados no Excel (26):
+    - JACQUARD PRINSCESS 01 PLANO.jpg (tecido: PRINSCESS, cor: 1)
+    - JACQUARD PRINSCESS 02 PLANO.jpg (tecido: PRINSCESS, cor: 2)
+    - JACQUARD PRINSCESS 03 PLAN O.jpg (tecido: PLAN, cor: 3)
+    - JACQUARD PRINSCESS 04 PLANO.jpg (tecido: PRINSCESS, cor: 4)
+    - JACQUARD PRINSCESS 05 PLANO.jpg (tecido: PRINSCESS, cor: 5)
+    - JACQUARD PRINSCESS 06 PLANO.jpg (tecido: PRINSCESS, cor: 6)
+    - JACQUARD PRINSCESS 07 PLANO.jpg (tecido: PRINSCESS, cor: 7)
+    - JACQUARD PRINSCESS 08 PLANO.jpg (tecido: PRINSCESS, cor: 8)
+    - JACQUARD PRINSCESS 09 PLANO.jpg (tecido: PRINSCESS, cor: 9)
+    - JACQUARD PRINSCESS 10 PLANO.jpg (tecido: PRINSCESS, cor: 10)
+    ... e mais 16
 
-Mapeamentos gerados: 66
+Mapeamentos gerados: 41
 ✓ CSV salvo: renomeacao_linha_industrial.csv
 
 ================================================================================
@@ -94,6 +116,6 @@ RESUMO FINAL
 ================================================================================
 Total de books processados: 8
 Total de CSVs gerados: 7
-Total de mapeamentos: 309
-Total de não encontrados: 12
+Total de mapeamentos: 274
+Total de não encontrados: 47
 
